@@ -1,0 +1,34 @@
+<cross-domain-policy>
+<site-control permitted-cross-domain-policies="master-only"/>
+<allow-http-request-headers-from domain="odnoklassniki.ru" headers="*"/>
+<allow-http-request-headers-from domain="*.odnoklassniki.ru" headers="*"/>
+<allow-http-request-headers-from domain="odnoklassniki.ua" headers="*"/>
+<allow-http-request-headers-from domain="*.odnoklassniki.ua" headers="*"/>
+<allow-http-request-headers-from domain="odnoklasniki.ru" headers="*"/>
+<allow-http-request-headers-from domain="*.odnoklasniki.ru" headers="*"/>
+<allow-http-request-headers-from domain="odnoklasniki.ua" headers="*"/>
+<allow-http-request-headers-from domain="*.odnoklasniki.ua" headers="*"/>
+<allow-http-request-headers-from domain="st.mycdn.me" headers="*"/>
+<allow-http-request-headers-from domain="stest.mycdn.me" headers="*"/>
+<allow-http-request-headers-from domain="ok.ru" headers="*"/>
+<allow-http-request-headers-from domain="*.facebook.com" headers="*"/>
+<allow-http-request-headers-from domain="facebook.com" headers="*"/>
+<allow-http-request-headers-from domain="*.ok.me" headers="*"/>
+<allow-http-request-headers-from domain="*" headers="*"/>
+<allow-access-from domain="odnoklassniki.ru"/>
+<allow-access-from domain="*.odnoklassniki.ru"/>
+<allow-access-from domain="odnoklassniki.ua"/>
+<allow-access-from domain="*.odnoklassniki.ua"/>
+<allow-access-from domain="odnoklasniki.ru"/>
+<allow-access-from domain="*.odnoklasniki.ru"/>
+<allow-access-from domain="odnoklasniki.ua"/>
+<allow-access-from domain="*.odnoklasniki.ua"/>
+<allow-access-from domain="st.mycdn.me"/>
+<allow-access-from domain="stest.mycdn.me"/>
+<allow-access-from domain="ok.ru"/>
+<allow-access-from domain="*.ok.ru"/>
+<allow-access-from domain="ok.me"/>
+<allow-access-from domain="*.facebook.com"/>
+<allow-access-from domain="facebook.com"/>
+<allow-access-from domain="*"/>
+</cross-domain-policy>
